@@ -80,7 +80,7 @@ function($)
           else
           { current.text( userString );
           }
-          
+
 					continue;
         }
 
@@ -163,7 +163,7 @@ function($)
         toReturn.push(item);
       }
       else if ( isObject(item) )
-      { 
+      {
 				// debugger;
 				for (functionName in item)
         { var parametersListList = item[functionName];
@@ -180,7 +180,7 @@ function($)
   }
 
 
-  
+
 
 
   this.navbar_collapse_id_counter = 0;

@@ -1,12 +1,11 @@
 {
   "tab_size": 2,
   "hard_tabs": false,
-  "soft_wrap": "editor_width",
+  "soft_wrap": "none",
   "show_whitespaces": "selection",
   "remove_trailing_whitespace_on_save": true,
   "ensure_final_newline_on_save": true,
   "format_on_save": "off",
-  "formatter": "prettier",
   "enable_language_server": true,
   "buffer_font_family": "Helvetica",
   "buffer_font_fallbacks": [
@@ -59,7 +58,7 @@
   "show_call_status_icon": true,
   "inlay_hints": {
     "enabled": true,
-    "show_type_hints": true,
+    "show_type_hints": false,
     "show_parameter_hints": true,
     "show_other_hints": true,
     "edit_debounce_ms": 700,
@@ -82,8 +81,8 @@
     "JavaScript": {
       "tab_size": 2,
       "hard_tabs": false,
-      "format_on_save": "on",
-      "formatter": "prettier",
+      "format_on_save": "off",
+      // "formatter": "prettier",
       "code_actions_on_format": {
         "source.fixAll": true
       }
@@ -91,8 +90,8 @@
     "TypeScript": {
       "tab_size": 2,
       "hard_tabs": false,
-      "format_on_save": "on",
-      "formatter": "prettier"
+      // "format_on_save": "on",
+      // "formatter": "prettier"
     },
     "JSON": {
       "tab_size": 2,
